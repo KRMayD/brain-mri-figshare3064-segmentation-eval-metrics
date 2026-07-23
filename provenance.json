@@ -1,0 +1,30 @@
+{
+  "created_at_utc": "2026-07-23T08:29:42.511723+00:00",
+  "checkpoint": "/home/msko021220/epoch_3.pt",
+  "source_protocol": "/home/msko021220/finegrained-vlm-training/outputs/method_faithful_brain_mri_v1/protocol/figshare3064_metadata_oracle_prompts_seed0.json",
+  "evaluation_images": "/home/msko021220/finegrained-vlm-training/runtime/figshare3064_generic_eval/images",
+  "evaluation_masks": "/home/msko021220/finegrained-vlm-training/runtime/figshare3064_generic_eval/masks",
+  "model_name": "hf-hub:microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
+  "prompt_mode": "metadata-informed/oracle, identical seed-0 mapping",
+  "saliency": {
+    "vbeta": 2.0,
+    "vvar": 0.3,
+    "vlayer": 9,
+    "seed": 12
+  },
+  "postprocessing": {
+    "method": "kmeans",
+    "filter": true,
+    "num_contours": 2
+  },
+  "sam": {
+    "model_type": "vit_h",
+    "prompts": "boxes",
+    "multicontour": true
+  },
+  "metrics": {
+    "nsd_tolerance_mm": 2.0,
+    "strict": true,
+    "expected_eval_count": 3064
+  }
+}
