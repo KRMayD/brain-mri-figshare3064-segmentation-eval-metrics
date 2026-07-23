@@ -1,0 +1,18 @@
+{
+  "expected_count": 3064,
+  "gt_dir": "/home/msko021220/finegrained-vlm-training/runtime/figshare3064_generic_eval/masks",
+  "mean_dsc": 0.5500764322038363,
+  "mean_nsd": 0.5870636030374643,
+  "num_missing_pred": 0,
+  "num_samples": 3064,
+  "pred_dir": "/home/msko021220/finegrained-vlm-training/outputs/brain_mri_external_epoch3_metadata_oracle_seed0_0723_082942/results/figshare3064_metadata_oracle_external_epoch3_encoder0_prompt0/sam",
+  "spacing_mm": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "std_dsc": 0.3102781536594841,
+  "std_nsd": 0.31988856215115447,
+  "strict": true,
+  "tolerance_mm": 2.0
+}
